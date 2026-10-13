@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Never commit real traffic or owner data
+*.log
+logs/
+data/
+private/
+reports/
