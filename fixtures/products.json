@@ -1,0 +1,1 @@
+[{"cost":12.5,"description":"A widget for testing","id":"widget-a","internal_notes":"Supplier X, do not share","name":"Widget A","price":19.99,"supplier":"Supplier X","url":"/products/widget-a"},{"cost":8.0,"description":"A second widget","id":"widget-b","internal_notes":"Margin review pending","name":"Widget B","price":14.99,"supplier":"Supplier Y","url":"/products/widget-b"}]
