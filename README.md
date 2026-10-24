@@ -17,6 +17,7 @@ fakes, and what is each one costing you.
   recommends; the owner approves or rejects each rule, and Doorman
   never applies rules itself.
 - **Welcome:** read-only lane for verified agents only, with allowlisted fields, quotas, bulk-export caps, and an audit entry per request. Spoofed and unknown agents are rejected before the lane is touched.
+- **Hardening:** real-time WSGI middleware that blocks spoofed agents, rate-limits unidentified bots, and applies per-purpose policy (training vs search vs live fetch are different rules, even from one vendor). Web Bot Auth Ed25519 signature verification in pure Python, no dependencies. Pip-installable packaging via pyproject.toml.
 
 ## Quickstart
 
