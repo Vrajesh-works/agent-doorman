@@ -35,6 +35,14 @@ python -m doorman.guard generate --log fixtures/access_small.log \
 python -m pytest tests/ -v
 ```
 
+## Demo and docs
+
+```bash
+python examples/demo.py
+```
+
+Full usage guide: `docs/USAGE.md`. Release history: `CHANGELOG.md`.
+
 ## Principles
 
 - Python standard library only. No dependencies to install.
