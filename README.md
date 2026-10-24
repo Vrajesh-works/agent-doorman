@@ -16,7 +16,7 @@ fakes, and what is each one costing you.
   sensitive paths), each with the evidence behind it. Guard only
   recommends; the owner approves or rejects each rule, and Doorman
   never applies rules itself.
-- **Welcome:** read-only MCP lane for verified agents only. Planned.
+- **Welcome:** read-only lane for verified agents only, with allowlisted fields, quotas, bulk-export caps, and an audit entry per request. Spoofed and unknown agents are rejected before the lane is touched.
 
 ## Quickstart
 
