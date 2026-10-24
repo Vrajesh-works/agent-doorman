@@ -1,0 +1,16 @@
+203.0.113.150 - - [14/Oct/2026:09:00:01 +0000] "GET /products/widget-a HTTP/1.1" 200 4523 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+198.51.100.160 - - [14/Oct/2026:09:01:12 +0000] "GET / HTTP/1.1" 200 8934 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0"
+2001:db8::1 - - [14/Oct/2026:09:02:44 +0000] "GET /products/widget-c HTTP/1.1" 200 3456 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+203.0.113.151 - - [14/Oct/2026:09:05:03 +0000] "GET /cart HTTP/1.1" 200 1234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+203.0.113.10 - - [14/Oct/2026:09:10:11 +0000] "GET /products/widget-a HTTP/1.1" 200 4523 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+203.0.113.10 - - [14/Oct/2026:09:10:19 +0000] "GET /products/widget-b HTTP/1.1" 200 5120 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+198.51.100.20 - - [14/Oct/2026:09:11:02 +0000] "GET /robots.txt HTTP/1.1" 200 123 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +https://anthropic.com/bot"
+198.51.100.20 - - [14/Oct/2026:09:11:09 +0000] "GET /products/widget-a HTTP/1.1" 200 4523 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +https://anthropic.com/bot"
+192.0.2.30 - - [14/Oct/2026:09:12:30 +0000] "GET /search?q=widget HTTP/1.1" 200 6789 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; PerplexityBot/1.0; +https://perplexity.ai/bot"
+203.0.113.200 - - [14/Oct/2026:09:20:01 +0000] "GET /products/widget-a HTTP/1.1" 200 4523 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+198.51.100.200 - - [14/Oct/2026:09:20:15 +0000] "GET /admin HTTP/1.1" 403 512 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+192.0.2.200 - - [14/Oct/2026:09:21:00 +0000] "GET /products/widget-b HTTP/1.1" 200 5120 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +https://anthropic.com/bot"
+203.0.113.180 - - [14/Oct/2026:09:30:00 +0000] "GET /products/widget-a HTTP/1.1" 200 4523 "-" "EvilScraper/2.0"
+198.51.100.180 - - [14/Oct/2026:09:31:00 +0000] "GET /sitemap.xml HTTP/1.1" 200 2341 "-" "curl/8.4.0"
+this is not a log line at all
+203.0.113.1 - - [14/Oct/2026:09:40:00 +0000] BROKEN
